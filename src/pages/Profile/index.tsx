@@ -54,6 +54,10 @@ const Profile: React.FC<IProps> = (props) => {
   });
 
   React.useEffect(() => {
+    if(selectedUser) {
+      return;
+    }
+
     UserStore.getProfile()
       .then((res) => {
         setSelectedUser(UserStore.user);
