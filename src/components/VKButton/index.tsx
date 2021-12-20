@@ -53,7 +53,6 @@ const VKButton: React.FC<IProps> = (props) => {
 
   React.useEffect(() => {
     const handleLogin = (code: string) => {
-      debugger;
       UserStore.loginVk(code)
         .then(() => {
           window.location.href ="/profile";

@@ -51,7 +51,6 @@ class ExchangeRateStore {
           return res.json();
         default:
           return res.json().then((errBody) => {
-            debugger;
             this.setError();
             if(errBody && errBody['errors'] && errBody['errors'].length && errBody['errors'][0]['message']) {
               return Promise.reject({
