@@ -32,7 +32,9 @@ Current app uses MobX and styled components.
 <p align="center">
   <img src="/captures/graphql.png" alt="screenshot" />
 </p>
-
+<p align="center">
+  <img src="/captures/user-profile.png" alt="screenshot" />
+</p>
 
 
 ## Installation
