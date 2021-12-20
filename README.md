@@ -6,6 +6,8 @@
 ## Description
 [React](https://reactjs.org/) is a JavaScript library for building user interfaces.
 
+Current app uses MobX and styled components.
+
 [DEMO exchange-rate](https://cis.digitallyconstructed.ru/)
 
 [DEMO graphql](https://cis.digitallyconstructed.ru/graphql)
@@ -37,11 +39,18 @@
 
 Update `.env` file  based on `.env.sample`
 
+The app uses parts of vk-auth-react-nestjs for authentication:
+https://github.com/ndrwbv/vk-auth-react-nestjs
+
+1. Create a new VK standalone application: https://vk.com/editapp?act=create
+2. Update REACT_APP_VK_CLIENT_ID
+
 ```bash
 $ yarn
 ```
 
 ## Running the app
+
 
 ```bash
 # dev
@@ -59,7 +68,7 @@ React is a JavaScript library for building user interfaces. [Read more here](htt
 ## Stay in touch
 
 - Contributor: [Alexander Serditov](https://cv.digitallyconstructed.ru/)
-
+- Uses parts from: [Andrew Boev](https://github.com/ndrwbv)
 ## License
 
   React is [MIT licensed](LICENSE).

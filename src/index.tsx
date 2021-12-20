@@ -8,12 +8,14 @@ import App from "App";
 
 import ExchangeRateStore from "stores/ExchangeRateStore";
 import ExchangeRateWebsocketService from "./stores/ExchangeRateWebsocketService";
+import UserStore from "./stores/UserStore";
 
 import "styles/main.scss";
 
 ReactDOM.render(
   <Provider ExchangeRateStore={ExchangeRateStore}
-            ExchangeRateWebsocketService={ExchangeRateWebsocketService}>
+            ExchangeRateWebsocketService={ExchangeRateWebsocketService}
+            UserStore={UserStore}>
     <App />
   </Provider>,
   document.getElementById("root")

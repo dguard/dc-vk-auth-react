@@ -89,6 +89,8 @@ const CurrencyExchange: React.FC<IProps> = (props) => {
         setTargetCurrency('R01235');
 
         updateConvertedValue(selectedAmount, 'R01235', newMapExchangeRate);
+      }).catch((err) => {
+
       });
     }
   });
