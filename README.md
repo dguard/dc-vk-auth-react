@@ -11,8 +11,8 @@ Current app uses `MobX` and `styled components`.
 
 | Service | Repo |
 | --- | --- |
-| API 📦 | dc-vk-auth-api (you are inside) |
-| Frontend 📦 | [dc-vk-auth-react](https://github.com/dguard/dc-vk-auth-react) |
+| API 📦 | [dc-vk-auth-api](https://github.com/dguard/dc-vk-auth-api) |
+| Frontend 📦 | dc-vk-auth-react (you are inside) |
 
 ## Captures
 <p align="center">
