@@ -30,13 +30,15 @@ Current app uses `MobX` and `styled components`.
 
 Update `.env` file  based on `.env.sample`
 
-The app uses parts of vk-auth-react-nestjs for authentication:
+The app uses parts of `vk-auth-react-nestjs` for authentication:
 
 https://github.com/ndrwbv/vk-auth-react-nestjs
 
 1. Create a new VK standalone application: 
 
 https://vk.com/editapp?act=create
+
+
 2. Update REACT_APP_VK_CLIENT_ID
 
 ```bash
