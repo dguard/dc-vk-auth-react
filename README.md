@@ -6,24 +6,13 @@
 ## Description
 [React](https://reactjs.org/) is a JavaScript library for building user interfaces.
 
-Current app uses MobX and styled components.
-
-[DEMO exchange-rate](https://cis.digitallyconstructed.ru/)
-
-[DEMO graphql](https://cis.digitallyconstructed.ru/graphql)
+Current app uses `MobX` and `styled components`.
 
 
 | Service | Repo |
 | --- | --- |
-| API 📦 | [cis-api](https://github.com/dguard/cis-api) |
-| Frontend 📦 | cis-front (you are inside) |
-| Worker 🐍| [cis-worker](https://github.com/dguard/cis-worker) |
-|  📦 |  |
-| Webhook API 🐍| [cis-webhook-api](https://github.com/dguard/cis-webhook-api) |
-| Webhook Worker 🐍| [cis-webhook-worker](https://github.com/dguard/cis-webhook-worker) |
-| Consumer Webhook 🐍| [cis-consumer-webhook](https://github.com/dguard/cis-consumer-webhook) |
-|  📦 |  |
-| Graphql API 🐍| [cis-graphql-api](https://github.com/dguard/cis-graphql-api) |
+| API 📦 | dc-vk-auth-api (you are inside) |
+| Frontend 📦 | [dc-vk-auth-react](https://github.com/dguard/dc-vk-auth-react) |
 
 ## Captures
 <p align="center">
@@ -42,9 +31,12 @@ Current app uses MobX and styled components.
 Update `.env` file  based on `.env.sample`
 
 The app uses parts of vk-auth-react-nestjs for authentication:
+
 https://github.com/ndrwbv/vk-auth-react-nestjs
 
-1. Create a new VK standalone application: https://vk.com/editapp?act=create
+1. Create a new VK standalone application: 
+
+https://vk.com/editapp?act=create
 2. Update REACT_APP_VK_CLIENT_ID
 
 ```bash
@@ -70,7 +62,7 @@ React is a JavaScript library for building user interfaces. [Read more here](htt
 ## Stay in touch
 
 - Contributor: [Alexander Serditov](https://cv.digitallyconstructed.ru/)
-- Uses parts from: [Andrew Boev](https://github.com/ndrwbv)
+- Uses parts from contributor: [Andrew Boev](https://github.com/ndrwbv)
 ## License
 
   React is [MIT licensed](LICENSE).

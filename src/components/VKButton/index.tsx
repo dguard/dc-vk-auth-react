@@ -55,9 +55,9 @@ const VKButton: React.FC<IProps> = (props) => {
     const handleLogin = (code: string) => {
       UserStore.loginVk(code)
         .then(() => {
-          window.location.href ="/profile";
+          props.history.push("/profile");
         })
-        .catch(() => setIsError(true));
+        .catch(() => setIsError(false));
     };
 
     let queryObj = queryString.parse(props.location.search);
